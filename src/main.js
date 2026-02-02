@@ -1,6 +1,6 @@
 // Code Practice: RNGolf
-// Name: 
-// Date:
+// Date: 01/02/2026
+// meow
 
 'use strict'
 
@@ -8,6 +8,12 @@ let config = {
     type: Phaser.AUTO,
     width: 640,
     height: 960,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            debug: true
+        }
+    },
     scene: [ Play ]
 }
 
